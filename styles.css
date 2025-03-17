@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background: #4caf50;
+    color: white;
+    padding: 50px 20px;
+}
+
+.cta {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: white;
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 20px;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+.social-icons a {
+    margin-right: 50px;
+    font-size: 24px;
+    color: #333;
+    text-decoration: none;
+}
+.social-icons a i {
+    font-size: 40px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.fa-facebook {
+    color: #3b5998;
+}
+
+.fa-twitter {
+    color: #1da1f2;
+}
+
+.fa-linkedin {
+    color: #0077b5;
+}
+
+.fa-whatsapp {
+    color: #25d366;
+}
+
+.social-icons a:hover i {
+    transform: scale(1.2);
+}
+
+
+article {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    flex: 200px;
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding: 20px;
+}
