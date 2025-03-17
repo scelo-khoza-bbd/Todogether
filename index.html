@@ -4,16 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todogether</title>
+    <link rel="icon" href="images/todogether-logo.jpg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
     <body>
         <header>
-            <h1>Todogether</h1>
-            <p>The Task Manager Built for Team Collaboration</p>
+            <h1>
+                <img src="images/todogether-logo.jpg" alt="Todogether Logo"> Todogether
+            </h1>
+            <h2>The Task Manager Built for Team Collaboration</h2>
             <a href="#" class="cta">Get Started</a>
         </header>
-
+        <section id="features-question">
+            <h2>Why Choose Todogether for your group projects?</h2>
+        </section>
         <section class="features" id="features">
             <article>
                 <h2>📌 Task Organization</h2>
@@ -28,14 +33,49 @@
                 <p>Ensure tasks get completed with automated follow-ups.</p>
             </article>
             <article>
-                <h2>Intelligent Calendar Integration</h2>
+                <h2>📅 Intelligent Calendar Integration</h2>
                 <p>Leverage your calendar for perfect task scheduling. Todogether analyzes task difficulty and importance to suggest optimal times for completion.</p>
             </article>
             <article>
-                <h2>Task Acceptance & Confirmation</h2>
+                <h2>✅️ Task Acceptance & Confirmation</h2>
                 <p>Know when your team members have acknowledged their tasks. With our acceptance feature, you'll never wonder if a task has been seen.</p>
             </article>
         </section>
+        <section id="faq">
+            <h2>Frequently Asked Questions</h2>
+        
+            <details>
+                <summary>What is Todogether?</summary>
+                <p>Todogether is a task management tool designed for group collaboration, allowing teams to assign, confirm, and track tasks efficiently.</p>
+            </details>
+        
+            <details>
+                <summary>How does task confirmation work?</summary>
+                <p>When you're assigned a task, you must "Accept" it to confirm that you've seen it. If you don't, the system will remind you.</p>
+            </details>
+        
+            <details>
+                <summary>What happens if I don't accept a task?</summary>
+                <p>If you don't confirm within the set time, Todogether will send reminders via notifications, and if necessary, trigger an automated call.</p>
+            </details>
+        
+            <details>
+                <summary>Does Todogether integrate with my calendar?</summary>
+                <p>Yes! Todogether analyzes your schedule and suggests the best time to complete tasks based on difficulty and availability.</p>
+            </details>
+        
+        </section>
+        <section id="subscribe">
+            <h2>Stay Updated with Todogether</h2>
+            <p>Subscribe to our newsletter and never miss an update!</p>
+            
+            <form action="#" method="post">
+                <label for="email">Enter your email:</label>
+                <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                <button type="submit">Count Me In</button>
+            </form>
+        </section>
+                
         <section class="contact" id="contact">
             <h2>Contact Us</h2>
             <p><b>Work Email:</b> <a href="mailto:scelo.khoza@bbd.co.za">scelo.khoza@bbd.co.za</a></p>
