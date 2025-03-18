@@ -13,7 +13,7 @@ nav {
     background-color: #007BFF;
     z-index: 1000;
     display: flex;
-    justify-content: center;
+    justify-content:end;
 }
 
 nav ul {
@@ -124,6 +124,24 @@ summary {
 details p {
     padding-top: 5px;
     margin-left: 10px;
+}
+
+#demo {
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+#demo img {
+    max-width: 30%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#demo figcaption {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    color: #555;
 }
 
 #subscribe {
