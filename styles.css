@@ -18,15 +18,14 @@ nav {
 
 nav ul {
     display: flex;
-    justify-content: center;
-    gap: 15px;
+    gap: 2px;
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
 nav ul li {
-    margin: 0 15px;
+    margin: 0;
 }
 
 nav ul li a {
@@ -109,7 +108,7 @@ header h1 img {
 
 details {
     background: #f8f8f8;
-    border: 1px solid #ddd;
+    border: 1px solid #746c6c;
     border-radius: 5px;
     margin-bottom: 10px;
     padding: 10px;
@@ -132,7 +131,7 @@ details p {
 }
 
 #demo img {
-    max-width: 30%;
+    max-width: 35%;
     height: auto;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
