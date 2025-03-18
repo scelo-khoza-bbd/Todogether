@@ -5,6 +5,51 @@ body {
     text-align: center;
 }
 
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #007BFF;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+nav ul li a button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+nav ul li a button:hover {
+    background-color: #0056b3; 
+}
+
 header {
     background: #007BFF;
     color: #f8f8f8;
@@ -114,7 +159,7 @@ input[type="email"] {
     font-size: 1rem;
 }
 
-button {
+#subscribe button {
     background: #007BFF;
     color: white;
     border: none;
@@ -128,10 +173,17 @@ button:hover {
     background: #0056b3;
 }
 
-
 .social-icons {
     margin-top: 20px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
 }
+
+.social-icons li {
+    display: inline-block;
+}
+
 .social-icons a {
     margin-right: 50px;
     font-size: 24px;
@@ -162,7 +214,6 @@ button:hover {
 .social-icons a:hover i {
     transform: scale(1.2);
 }
-
 
 article {
     background: #f4f4f4;

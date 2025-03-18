@@ -10,6 +10,14 @@
     <link rel="stylesheet" href="styles.css">
 </head>
     <body>
+        <nav>
+            <ul>
+                <li><a href="#features"><button>Features</button></a></li>
+                <li><a href="#faq"><button>How It Works</button></a></li>
+                <li><a href="#subscribe"><button>Subscribe</button></a></li>
+                <li><a href="#contact"><button>Contact</button></a></li>
+            </ul>
+        </nav>
         <header>
             <h1>
                 <img src="images/todogether-logo.jpg" alt="Todogether Logo"> Todogether
@@ -17,77 +25,95 @@
             <h2>The Task Manager Built for Team Collaboration</h2>
             <a href="#" class="cta">Get Started</a>
         </header>
-        <section id="features-question">
-            <h2>Why Choose Todogether for your group projects?</h2>
-        </section>
-        <section class="features" id="features">
-            <article>
-                <h2>📌 Task Organization</h2>
-                <p>Easily create, assign, and manage tasks.</p>
-            </article>
-            <article>
-                <h2>🔔 Smart Notifications</h2>
-                <p>Get AI-powered reminders and alerts.</p>
-            </article>
-            <article>
-                <h2>🔄 Automated Follow-ups</h2>
-                <p>Ensure tasks get completed with automated follow-ups.</p>
-            </article>
-            <article>
-                <h2>📅 Intelligent Calendar Integration</h2>
-                <p>Leverage your calendar for perfect task scheduling. Todogether analyzes task difficulty and importance to suggest optimal times for completion.</p>
-            </article>
-            <article>
-                <h2>✅️ Task Acceptance & Confirmation</h2>
-                <p>Know when your team members have acknowledged their tasks. With our acceptance feature, you'll never wonder if a task has been seen.</p>
-            </article>
-        </section>
-        <section id="faq">
-            <h2>Frequently Asked Questions</h2>
-        
-            <details>
-                <summary>What is Todogether?</summary>
-                <p>Todogether is a task management tool designed for group collaboration, allowing teams to assign, confirm, and track tasks efficiently.</p>
-            </details>
-        
-            <details>
-                <summary>How does task confirmation work?</summary>
-                <p>When you're assigned a task, you must "Accept" it to confirm that you've seen it. If you don't, the system will remind you.</p>
-            </details>
-        
-            <details>
-                <summary>What happens if I don't accept a task?</summary>
-                <p>If you don't confirm within the set time, Todogether will send reminders via notifications, and if necessary, trigger an automated call.</p>
-            </details>
-        
-            <details>
-                <summary>Does Todogether integrate with my calendar?</summary>
-                <p>Yes! Todogether analyzes your schedule and suggests the best time to complete tasks based on difficulty and availability.</p>
-            </details>
-        
-        </section>
-        <section id="subscribe">
-            <h2>Stay Updated with Todogether</h2>
-            <p>Subscribe to our newsletter and never miss an update!</p>
-            
-            <form action="#" method="post">
-                <label for="email">Enter your email:</label>
-                <input type="email" id="email" name="email" placeholder="your@email.com" required>
-                <button type="submit">Count Me In</button>
-            </form>
-        </section>
-                
-        <section class="contact" id="contact">
-            <h2>Contact Us</h2>
-            <p><b>Work Email:</b> <a href="mailto:scelo.khoza@bbd.co.za">scelo.khoza@bbd.co.za</a></p>
-            <p><b>Phone:</b> <a href="tel:+27685169822">0685169822</a></p>
-            <section class="social-icons">
-                <a href="https://www.facebook.com/scelo.coolkruger.54" target="_blank"><i class="fab fa-facebook"></i></a>
-                <a href="https://twitter.com/Mnikazi0Wempuph" target="_blank"><i class="fab fa-twitter"></i></a>
-                <a href="https://www.linkedin.com/in/scelo-khoza-b56662287/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="https://api.whatsapp.com/send?phone=0685169822" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        <h2 id="features-question">Why Choose Todogether for your group projects?</h2>
+        <main>
+            <section class="features" id="features">
+                <article>
+                    <h2>📌 Task Organization</h2>
+                    <p>Easily create, assign, and manage tasks.</p>
+                </article>
+                <article>
+                    <h2>🔔 Smart Notifications</h2>
+                    <p>Get AI-powered reminders and alerts.</p>
+                </article>
+                <article>
+                    <h2>🔄 Automated Follow-ups</h2>
+                    <p>Ensure tasks get completed with automated follow-ups.</p>
+                </article>
+                <article>
+                    <h2>📅 Intelligent Calendar Integration</h2>
+                    <p>Leverage your calendar for perfect task scheduling. Todogether analyzes task difficulty and importance to suggest optimal times for completion.</p>
+                </article>
+                <article>
+                    <h2>✅️ Task Acceptance & Confirmation</h2>
+                    <p>Know when your team members have acknowledged their tasks. With our acceptance feature, you'll never wonder if a task has been seen.</p>
+                </article>
             </section>
-        </section>
+            <section id="faq">
+                <h2>How Todogether Works</h2>
+                <details>
+                    <summary>Introducing Todogether: Your Smart Team Assistant</summary>
+                    <p>
+                        Todogether is a collaborative task management tool. It allows teams to assign, confirm, and track tasks efficiently. Todogether is more than just a task manager—it's a collaborative tool designed to ensure team efficiency. 
+                        Whether you're managing a startup, coordinating a school project, or organizing a community event, Todogether 
+                        helps you assign, track, and confirm tasks effortlessly.
+                    </p>
+                </details>
+            
+                <details>
+                    <summary>Task Confirmation: Ensuring Accountability</summary>
+                    <p>
+                        When you're assigned a task, you must "Accept" it to confirm that you've seen it. If you don't, the system will remind you.
+                        Imagine you're leading a marketing team, and you assign a task to create a campaign brief.  
+                        Instead of wondering whether your teammate has seen the task, Todogether requires them to **accept** it first.  
+                        If they forget, the system sends reminders, ensuring no task is overlooked.
+                    </p>
+                </details>
+            
+                <details>
+                    <summary>Never Miss a Task: Smart Reminders & Automated Calls</summary>
+                    <p>
+                        Unaccepted tasks trigger automated reminders. If you don't confirm within the set time, Todogether will send notifications and, if necessary, trigger an automated call.
+                        Let's say you assign a task to a designer, but they haven't accepted it within the given timeframe.  
+                        Todogether will first send notifications, then escalate to an automated call if needed—just like a real project manager following up!
+                    </p>
+                </details>
+            
+                <details>
+                    <summary>Seamless Calendar Integration: Work Smarter, Not Harder</summary>
+                    <p>
+                        Todogether analyzes your schedule and suggests the best time to complete tasks based on difficulty and availability.
+                        If you’re juggling multiple deadlines, Todogether helps by syncing with your calendar.  
+                        Based on your schedule and task urgency, it suggests the **best time** to complete each task—so you're never overloaded.
+                    </p>
+                </details>
+            
+            </section>
+            
+            <section id="subscribe">
+                <h2>Stay Updated with Todogether</h2>
+                <p>Subscribe to our newsletter and never miss an update!</p>
+                
+                <form action="#" method="post">
+                    <label for="email">Enter your email:</label>
+                    <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                    <button type="submit">Count Me In</button>
+                </form>
+            </section>
+                    
+            <section class="contact" id="contact">
+                <h2>Contact Us</h2>
+                <p><strong>Work Email:</strong> <a href="mailto:scelo.khoza@bbd.co.za">scelo.khoza@bbd.co.za</a></p>
+                <p><strong>Phone:</strong> <a href="tel:+27685169822">0685169822</a></p>
+                
+                <ul class="social-icons">
+                    <li><a href="https://www.facebook.com/scelo.coolkruger.54" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="https://twitter.com/Mnikazi0Wempuph" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/scelo-khoza-b56662287/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a href="https://api.whatsapp.com/send?phone=0685169822" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+                </ul>
+            </section>            
+        </main>
         <footer>
             <p>&copy; 2024 Todogether. All Rights Reserved.</p>
         </footer>
