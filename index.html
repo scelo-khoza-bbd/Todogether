@@ -8,6 +8,7 @@
     <link rel="icon" href="images/todogether-logo.jpg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js" async></script>
 </head>
     <body>
         <nav>
@@ -55,7 +56,6 @@
                     <h2>✅️ Task Acceptance & Confirmation</h2>
                     <p>Know when your team members have acknowledged their tasks. With our acceptance feature, you'll never wonder if a task has been seen.</p>
                 </article>
-
             </section>
 
             <section id="faq">
@@ -103,7 +103,21 @@
             <figure id="demo">
                 <img src="images/taskConfirmationDemo.webp" alt="Demo of task confirmation and automated call">
                 <figcaption>See how task confirmation & automated calls work in Todogether.</figcaption>
-            </figure>            
+            </figure>  
+            
+            <aside id="task-board">
+                <h3>Try Todogether Now! 🎯</h3>
+                <section class="board">
+                    <ul id="todo" class="column">
+                        <li>ToDo</li>
+                        <article class="task-card" draggable="true" id="task">I will join Todogether</article>
+                    </ul>
+                    <ul id="completed" class="column">
+                        <li>Completed</li>
+                    </ul>
+                </section>
+            </aside>
+            
             
             <section id="subscribe">
                 <h2>Stay Updated with Todogether</h2>
